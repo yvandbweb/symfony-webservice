@@ -1,0 +1,14 @@
+webserv_root:
+    path:       /
+    controller: App\Controller\DefaultController::root
+    methods:    GET
+    
+webserv_get_comments:
+    path:       /commentswithposts
+    controller: App\Controller\DefaultController::getComments
+    methods:    GET    
+    
+webserv_get_users:
+    path:       /userandcomsandposts
+    controller: App\Controller\DefaultController::getUsers
+    methods:    GET      
